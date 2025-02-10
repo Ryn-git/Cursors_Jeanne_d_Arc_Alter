@@ -1,0 +1,54 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%loc%,%10%\%CUR_DIR%\%person%"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl,,1"
+
+[Scheme.Cur]
+1.ani
+2.ani
+3.ani
+4.ani
+5.cur
+6.cur
+7.cur
+8.ani
+9.ani
+10.ani
+11.ani
+12.ani
+13.cur
+14.cur
+15.ani
+16.cur
+17.cur
+
+[Strings]
+CUR_DIR       = "Cursors\Crystal1"
+SCHEME_NAME   = "Jeanne d'Arc (Alter)"
+pointer       = "1.ani"
+help          = "2.ani"
+work          = "3.ani"
+busy          = "4.ani"
+cross          = "5.cur"
+text           = "6.cur"
+hand          = "7.cur"
+unavailable = "8.ani"
+vert          = "9.ani"
+horz          = "10.ani"
+dgn1         = "11.ani"
+dgn2          = "12.ani"
+move        = "13.cur"
+alternate     = "14.cur"
+link              = "15.ani"
+loc	      = "16.cur"
+person	      = "17.cur"
